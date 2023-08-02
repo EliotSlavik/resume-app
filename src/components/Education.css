@@ -1,0 +1,46 @@
+/* Education.css, Experience.css, Skills.css */
+section {
+    padding: 1.5rem 0;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #1c4a6e;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 0.8rem;
+  }
+  
+  strong {
+    font-size: 1.3rem;
+    color: #1c4a6e;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    font-size: 1.1rem;
+    background-color: #1c4a6e;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  li:hover {
+    transform: scale(1.05);
+    background-color: #2d689d;
+  }
+  
+  

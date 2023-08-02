@@ -1,0 +1,112 @@
+/* GlobalStyles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  max-width: 800px;
+  padding: 2rem;
+  background-color: #adaef2;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.App section:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+  animation: fadeIn 0.5s ease;
+}
+
+/* Styling for code examples */
+section#code-examples {
+  padding: 4rem 0;
+}
+
+section#code-examples h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+section#code-examples p {
+  margin-bottom: 2rem;
+}
+
+.code-example,
+.hashtag-generator {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.code-example h3,
+.hashtag-generator h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.code-example p,
+.hashtag-generator p {
+  margin-bottom: 1rem;
+}
+
+.hashtag-generator label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hashtag-generator input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.hashtag-generator button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #1c4a6e;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.hashtag-generator button:hover {
+  background-color: #144166;
+}
+
+.hashtag-generator p {
+  margin-top: 1rem;
+  color: #ff0000;
+  font-size: 1rem;
+}
+
+.hashtag-generator p.success {
+  color: #00bb00;
+}

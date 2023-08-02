@@ -1,0 +1,121 @@
+/* CodeExamples.css */
+
+/* General styles for the container */
+#code-examples .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Styling for the Code Examples section */
+  #code-examples {
+    padding: 4rem 0;
+  }
+  
+  #code-examples h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  #code-examples p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Styling for each code example */
+  .code-example {
+    border: 1px solid #1e1d1d;
+    border-radius: 5px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    background-color: #1d1d1d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .code-example h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #fefefe;
+  }
+  
+  .code-example p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Styling for Data Visualization code example */
+  .code-example.data-visualization svg {
+    margin-top: 1rem;
+  }
+  
+  /* Styling for Numbers to Words code example */
+  .code-example.numbers-to-words label,
+  .code-example.numbers-to-words input[type="number"],
+  .code-example.numbers-to-words button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .code-example.numbers-to-words button {
+    background-color: #1c4a6e;
+    color: #000000;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .code-example.numbers-to-words button:hover {
+    background-color: #144166;
+  }
+  
+  .code-example.numbers-to-words p {
+    color: #ff0000;
+    font-size: 1.2rem;
+  }
+  
+  /* Styling for Hashtag Generator code example */
+  .code-example.hashtag-generator label,
+  .code-example.hashtag-generator input[type="text"],
+  .code-example.hashtag-generator button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  
+  .code-example.hashtag-generator button {
+    background-color: #4b82ac;
+    color: #040101;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .code-example.hashtag-generator button:hover {
+    background-color: #144166;
+  }
+  
+  .code-example.hashtag-generator p {
+    color: #ff0000;
+    font-size: 1.2rem;
+  }
+  
+  .code-example.hashtag-generator ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .code-example.hashtag-generator li {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  

@@ -1,0 +1,96 @@
+/* .App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.App section:not(:last-child) {
+  border-bottom: 1px solid #ccc;
+} 
+
+/* ... your existing styles ... */
+
+section#code-examples {
+  padding: 4rem 0;
+}
+
+section#code-examples h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+}
+
+section#code-examples p {
+  margin-bottom: 2rem;
+}
+
+.code-example {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.code-example h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.code-example p {
+  margin-bottom: 1rem;
+}
+
+/* Styling for HashtagGenerator component */
+
+.hashtag-generator {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hashtag-generator h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hashtag-generator label {
+  display: block;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.hashtag-generator input[type="text"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.hashtag-generator button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background-color: #1c4a6e;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.hashtag-generator button:hover {
+  background-color: #144166;
+}
+
+.hashtag-generator p {
+  margin-top: 1rem;
+  color: #ff0000;
+  font-size: 1rem;
+}
+
+.hashtag-generator p.success {
+  color: #00bb00;
+}
+
+ */

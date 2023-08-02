@@ -1,0 +1,22 @@
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  li {
+    font-size: 1.1rem;
+    background-color: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  li:hover {
+    transform: scale(1.05);
+    background-color: #555;
+  }
