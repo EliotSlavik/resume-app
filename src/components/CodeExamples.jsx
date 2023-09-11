@@ -3,7 +3,7 @@ import * as d3 from "d3";
 import "./CodeExamples.css"
 
 const CodeExamples = () => {
-  //Data Visualizer
+  //Data Visualizercd 
   // Existing data for project examples
   const projectData = [
     { name: "Project 1", value: 15 },

@@ -16,6 +16,11 @@ const Education = () => {
         College of DuPage, Jan 2020 - Jun 2020
       </p>
       <p>
+        <strong>CCNA</strong>
+        <br/>
+        Cisco Certifiecation, 2012
+      </p>
+      <p>
         <strong>Computer Science Coursework</strong>
         <br />
         Joliet Junior College, Jan 2010 - Sep 2012
