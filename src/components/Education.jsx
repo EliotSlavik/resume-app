@@ -8,7 +8,7 @@ const Education = () => {
       <p>
         <strong>Full Stack Web Development Program</strong>
         <br />
-        Kenzie Academy, Oct 2022 - Jul 2023
+        Southern New Hampshire University, Oct 2022 - Jul 2025
       </p>
       <p>
         <strong>Computer Science Coursework</strong>
